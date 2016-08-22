@@ -1,0 +1,48 @@
+/*
+Copyright (c) 2016 KeeeX SAS 
+
+This is an open source project available under the MIT license.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+*/
+#name {
+	font-weight: 600;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#description {
+	white-space: pre-line;
+	margin-top: 10px;
+}
+
+#comments {
+	margin-top: 10px;
+	background: #e5e5e5;
+}
+
+#comments .comment {
+	padding: 6px 20px;
+	border-bottom: 1px solid rgba(248, 248, 248, 1);
+}
+
+div[lang].error {
+	color: tomato;
+}
+
+div[lang]:before {
+	content: attr(lang);
+	background: rgb(36, 95, 66);
+	padding: 3px;
+	color: white;
+	margin-right: 5px;
+	font-weight: normal;
+	font-size: 14px;
+}

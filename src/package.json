@@ -1,0 +1,15 @@
+{
+  "name": "SystranPlugins",
+  "version": "1.0.0",
+  "description": "Automatically tranlate content in detail view",
+  "main": "index.html",
+  "icon": "icon.png",
+  "window": {
+    "toolbar": true
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "keeex-api": "^0.2.1",
+    "node-html-encoder": "0.0.2"
+  }
+}
